@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    font-size: 62.5%;
+}
+  
+  
+  
+main{
+    display: flex;
+    height: auto;
+    width: auto;
+    min-height: 100vh;
+    min-width: 100%;  
+}
+  
+.editor{
+    width: 50%;
+    border-right: 0.1rem solid black;
+}
+.code{
+    font-size: 2rem;
+    padding-left: 2rem;
+    height: 33.33%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+.code:focus{
+    outline: none;
+}
+  
+.preview{
+    width: 50%;
+}
+.frame{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
